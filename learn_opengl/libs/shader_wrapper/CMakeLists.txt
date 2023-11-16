@@ -1,0 +1,4 @@
+
+add_library(shaderWrapper shader_wrapper.cpp)
+target_link_libraries(shaderWrapper FGLAD)
+target_include_directories(shaderWrapper INTERFACE ${CMAKE_CURRENT_SOURCE_DIR})
